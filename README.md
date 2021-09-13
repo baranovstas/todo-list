@@ -6,5 +6,5 @@
 **_Стек:_**
 
 - Чистый JavaScript
-- Фреймворк Bootstrap
+- Библиотека Bootstrap
 - localStorage
