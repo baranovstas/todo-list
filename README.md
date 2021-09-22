@@ -2,6 +2,7 @@
 
 **_Стек:_**
 
-- Чистый JavaScript
+- HTML
+- JavaScript
 - Библиотека Bootstrap
 - localStorage
