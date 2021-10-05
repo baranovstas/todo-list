@@ -80,10 +80,10 @@
       if (titleInner === 'Мои дела') {
         list.innerHTML = localStorage.getItem(titleInner);
       }
-      else if (titleInner === 'Дела папы') {
+      else if (titleInner === 'Дела коллеги') {
         list.innerHTML = localStorage.getItem(titleInner);
       }
-      else if (titleInner === 'Дела мамы') {
+      else if (titleInner === 'Дела друга') {
         list.innerHTML = localStorage.getItem(titleInner);
       }
     }
@@ -114,10 +114,10 @@
       if (titleInner === 'Мои дела') {
         localStorage.setItem(titleInner, todoListInner);
       }
-      else if (titleInner === 'Дела папы') {
+      else if (titleInner === 'Дела коллеги') {
         localStorage.setItem(titleInner, todoListInner);
       }
-      else if (titleInner === 'Дела мамы') {
+      else if (titleInner === 'Дела друга') {
         localStorage.setItem(titleInner, todoListInner);
       }
     }
@@ -126,10 +126,10 @@
       if (titleInner === 'Мои дела') {
         localStorage.setItem(titleInner, list);
       }
-      else if (titleInner === 'Дела папы') {
+      else if (titleInner === 'Дела коллеги') {
         localStorage.setItem(titleInner, list);
       }
-      else if (titleInner === 'Дела мамы') {
+      else if (titleInner === 'Дела друга') {
         localStorage.setItem(titleInner, list);
       }
     }
@@ -145,6 +145,7 @@
       todoList = createTodoList();
 
     body.style.background = 'rgb(156, 150, 150)';
+    body.style.height = '100vh';
     container.append(todoAppTitle);
     container.append(todoItemForm.form);
     container.append(todoList);
